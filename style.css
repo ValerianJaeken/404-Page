@@ -1,1 +1,35 @@
+body{
+  background-color: powderblue;
+}
 
+.text{
+  display: block;
+  float: left;
+  margin: 100px 0 100px 0px;
+  font-size: 22px;
+  font-family: fantasy;
+
+}
+
+.firstPic{
+  background-image: url("https://i.imgur.com/sZKVWpd.png");
+  background-repeat:no-repeat;
+  background-position: left;
+  width:500px;
+  height:600px;
+  float: left;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.firstPic:hover{
+  background-image:url("https://i.imgur.com/yDgFhIw.jpg");
+  width:500px;
+  height:600px;
+  background-repeat:no-repeat;
+}
+
+.git{
+  float: right;
+  margin: 100px 0 100px 0;
+}
